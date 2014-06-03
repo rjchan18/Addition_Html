@@ -1,21 +1,21 @@
 <html>
-	<body>
-		<p> Add two numbers: </p>
+    <body>
+        <p> Add two numbers: </p>
 
-		Enter first number: <input type = "text" id = "num1"><br/>
+        Enter first number: <input type = "text" id = "num1"><br/>
 
-		Enter second number: <input type = "text" id = "num2"><br/>
+        Enter second number: <input type = "text" id = "num2"><br/>
 
-		<button onclick = "add()"> Add </button>
-		<p id = "sum"></p>
+        <button onclick = "add()"> Add </button>
+        <p id = "sum"></p>
 
-		<script>
-			function add(){
-				var y = document.getElementById("num1").value;
-				var z = document.getElementById("num2").value;
-				var x = +y + +z;
-				document.getElementById("sum").innerHTML = "The answer is equal to " + x + ".";
-			}
-		</script>
-	</body>
+    <script>
+        function add(){
+            var y = document.getElementById("num1").value;
+            var z = document.getElementById("num2").value;
+            var x = +y + +z;
+            document.getElementById("sum").innerHTML = "The answer is equal to " + x + ".";
+        }
+    </script>
+    </body>
 </html>
